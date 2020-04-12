@@ -1,0 +1,9 @@
+<h3>Our Team</h3>
+<div class="team-container">
+    <div class="provider-card" ng-repeat="pcp in $ctrl.team">
+        <a href="#!/our-team/{{pcp.index}}" class="provider-link">
+            <img class="" alt="{{pcp.name}}"" height="220px" width="220px" src={{pcp.image}} />
+            <span>{{pcp.name}}</span>
+        </a>
+    </div>
+</div>
